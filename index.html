@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes EXCELérations</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            background: #ffffff;
+            max-width: 650px;
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+            text-align: center;
+            padding: 40px 30px;
+        }
+        .logo {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 25px;
+        }
+        p.description {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #555;
+            margin-bottom: 30px;
+        }
+        .badge-container {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 35px;
+            flex-wrap: wrap;
+        }
+        .badge {
+            background-color: #e8f5e9;
+            color: #1e7e34;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+        .btn-contact {
+            display: inline-block;
+            background-color: #107c41; /* Vert rappelant Excel */
+            color: #ffffff;
+            text-decoration: none;
+            padding: 14px 28px;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: background-color 0.2s ease;
+        }
+        .btn-contact:hover {
+            background-color: #0b582e;
+        }
+        footer {
+            margin-top: 30px;
+            font-size: 0.85rem;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Logo -->
+        <img src="logo.jpg" alt="Mes EXCELérations" class="logo">
+
+        <!-- Description -->
+        <p class="description">
+            Bienvenue sur <strong>Mes EXCELérations</strong> ! Retrouvez très prochainement des fiches récapitulatives (<em>cheat sheets</em>) et des vidéos pédagogiques pour booster votre maîtrise d'Excel.
+        </p>
+
+        <!-- Badges d'annonce -->
+        <div class="badge-container">
+            <span class="badge">📄 Cheat Sheets PDF</span>
+            <span class="badge">🎥 Vidéos Pédagogiques</span>
+        </div>
+
+        <!-- Bouton Contact Email -->
+        <a href="mailto:mes.excelerations@gmail.com" class="btn-contact">
+            ✉️ Contactez-moi : mes.excelerations@gmail.com
+        </a>
+
+        <footer>
+            &copy; Mes EXCELérations - Tous droits réservés
+        </footer>
+    </div>
+
+</body>
+</html>
